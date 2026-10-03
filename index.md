@@ -30,7 +30,7 @@ Uygulama özellikle çocuklara yönelik değildir ve çocuklardan bilerek veri t
 Bu politika güncellenebilir. Güncel sürüm her zaman bu sayfada yayınlanır.
 
 ### 7. İletişim
-Sorularınız için: **rasetmengine@hotmail.com**
+Sorularınız için: **[E-POSTA ADRESİNİZ]**
 
 ---
 
@@ -60,4 +60,4 @@ The App is not specifically directed at children and does not knowingly collect 
 This policy may be updated. The current version is always published on this page.
 
 ### 7. Contact
-For questions: **rasetmengine@hotmail.com**
+For questions: **[YOUR EMAIL ADDRESS]**
