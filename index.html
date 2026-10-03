@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noteify – Privacy Policy / Gizlilik Politikası</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f2937; --muted:#6b7280; --accent:#4f46e5; --line:#e5e7eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f172a; --fg:#e5e7eb; --muted:#94a3b8; --accent:#818cf8; --line:#1e293b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .sr { position:absolute; opacity:0; pointer-events:none; }
+  header { max-width:760px; margin:0 auto; padding:24px 20px 8px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  header h1 { margin:0; font-size:1.5rem; }
+  main { max-width:760px; margin:0 auto; padding:0 20px 48px; }
+  h2 { margin-top:1.6em; font-size:1.1rem; color:var(--accent); }
+  .meta { color:var(--muted); font-size:.9rem; }
+  hr { border:0; border-top:1px solid var(--line); margin:1.2em 0; }
+  code { background:var(--line); padding:1px 5px; border-radius:4px; }
+
+  /* Dil anahtarı: EN | (anahtar) | TR — işaretleyince Türkçe açılır */
+  .switch { display:inline-flex; align-items:center; gap:8px; cursor:pointer; user-select:none; font-weight:600; font-size:.9rem; }
+  .slider { position:relative; width:44px; height:24px; border-radius:12px; background:var(--line); transition:background .2s; }
+  .slider::after { content:""; position:absolute; top:3px; left:3px; width:18px; height:18px; border-radius:50%; background:var(--accent); transition:transform .2s; }
+  #lang-toggle:checked ~ header .slider::after { transform:translateX(20px); }
+  #lang-toggle:focus-visible ~ header .slider { outline:2px solid var(--accent); outline-offset:2px; }
+
+  .tr { display:none; }
+  #lang-toggle:checked ~ main .en { display:none; }
+  #lang-toggle:checked ~ main .tr { display:block; }
+</style>
+</head>
+<body>
+<input type="checkbox" id="lang-toggle" class="sr" aria-label="Türkçe / Turkish">
+
+<header>
+  <h1>Noteify – Privacy Policy</h1>
+  <label class="switch" for="lang-toggle"><span>EN</span><span class="slider"></span><span>TR</span></label>
+</header>
+
+<main>
+
+<!-- ======================= ENGLISH (default) ======================= -->
+<section class="en" lang="en">
+  <p class="meta">Last updated: October 3, 2026</p>
+  <p><strong>Noteify</strong> (the "App") is a music app that detects notes played or sung into the microphone and displays them as notation. Package name: <code>com.rasetmengine.noteify</code>.</p>
+
+  <h2>1. Data we collect</h2>
+  <p>Noteify <strong>does not collect personal data and does not send any data to our servers</strong>. The App has no accounts, sign-up, advertising, or analytics/tracking services.</p>
+
+  <h2>2. Microphone permission</h2>
+  <p>The App uses the <code>RECORD_AUDIO</code> (microphone) permission <strong>only to detect notes in real time</strong>.</p>
+  <ul>
+    <li>Audio is processed on your device instantly and converted into a note name (e.g., "C4").</li>
+    <li>Audio is <strong>not recorded, not written to files, not stored, and not transmitted anywhere</strong>.</li>
+    <li>The microphone is used only when you start listening. You can revoke the permission at any time in Android settings; other features such as the piano keyboard and note editing keep working.</li>
+  </ul>
+
+  <h2>3. Data stored on your device</h2>
+  <p>Melodies you save (note names and durations) and your app settings are stored <strong>only on your device</strong>. This data never reaches us. It is deleted when you clear the app's data or uninstall the App.</p>
+
+  <h2>4. Sharing with third parties</h2>
+  <p>No data is shared with or sold to third parties.</p>
+
+  <h2>5. Children</h2>
+  <p>The App is not specifically directed at children and does not knowingly collect data from children.</p>
+
+  <h2>6. Changes</h2>
+  <p>This policy may be updated. The current version is always published on this page.</p>
+
+  <h2>7. Contact</h2>
+  <p>For questions: <strong>rasetmengine@hotmail.com</strong></p>
+</section>
+
+<!-- ======================= TÜRKÇE ======================= -->
+<section class="tr" lang="tr">
+  <h1 style="font-size:1.5rem;margin:0 0 .3em">Noteify – Gizlilik Politikası</h1>
+  <p class="meta">Son güncelleme: 3 Ekim 2026</p>
+  <p><strong>Noteify</strong> ("Uygulama"), mikrofondan çalınan veya söylenen notaları algılayıp nota olarak gösteren bir müzik uygulamasıdır. Uygulama paket adı: <code>com.rasetmengine.noteify</code>.</p>
+
+  <h2>1. Topladığımız veriler</h2>
+  <p>Noteify <strong>kişisel veri toplamaz, sunucularımıza veri göndermez</strong>. Uygulamada hesap, kayıt olma, reklam veya analiz/izleme hizmeti yoktur.</p>
+
+  <h2>2. Mikrofon izni</h2>
+  <p>Uygulama, <code>RECORD_AUDIO</code> (mikrofon) iznini <strong>yalnızca notaları gerçek zamanlı algılamak</strong> için kullanır.</p>
+  <ul>
+    <li>Ses, cihazınızda anlık olarak işlenir ve notaya (örn. "C4") dönüştürülür.</li>
+    <li>Ses <strong>kaydedilmez, dosyaya yazılmaz, saklanmaz ve hiçbir yere gönderilmez</strong>.</li>
+    <li>Mikrofon yalnızca siz dinlemeyi başlattığınızda kullanılır. İzni dilediğiniz zaman Android ayarlarından kaldırabilirsiniz; bu durumda piyano klavyesi ve nota düzenleme gibi diğer özellikler çalışmaya devam eder.</li>
+  </ul>
+
+  <h2>3. Cihazda saklanan veriler</h2>
+  <p>Kaydettiğiniz melodiler (nota adları ve süreleri) ve uygulama ayarlarınız <strong>yalnızca cihazınızda</strong> saklanır. Bu veriler bize ulaşmaz. Uygulama verilerini temizlediğinizde veya uygulamayı kaldırdığınızda silinir.</p>
+
+  <h2>4. Üçüncü taraflarla paylaşım</h2>
+  <p>Hiçbir veri üçüncü taraflarla paylaşılmaz veya satılmaz.</p>
+
+  <h2>5. Çocuklar</h2>
+  <p>Uygulama özellikle çocuklara yönelik değildir ve çocuklardan bilerek veri toplamaz.</p>
+
+  <h2>6. Değişiklikler</h2>
+  <p>Bu politika güncellenebilir. Güncel sürüm her zaman bu sayfada yayınlanır.</p>
+
+  <h2>7. İletişim</h2>
+  <p>Sorularınız için: <strong>rasetmengine@hotmail.com</strong></p>
+</section>
+
+</main>
+
+<script>
+  // İsteğe bağlı: adresin sonuna #tr eklenirse Türkçe açılır (varsayılan: İngilizce).
+  (function () {
+    var box = document.getElementById('lang-toggle');
+    function sync() {
+      document.documentElement.lang = box.checked ? 'tr' : 'en';
+      document.title = box.checked ? 'Noteify – Gizlilik Politikası' : 'Noteify – Privacy Policy';
+      var h1 = document.querySelector('header h1');
+      h1.textContent = box.checked ? 'Noteify – Gizlilik Politikası' : 'Noteify – Privacy Policy';
+    }
+    if (location.hash === '#tr') box.checked = true;
+    box.addEventListener('change', function () {
+      sync();
+      if (history.replaceState) history.replaceState(null, '', box.checked ? '#tr' : location.pathname + location.search);
+    });
+    sync();
+  })();
+</script>
+</body>
+</html>
